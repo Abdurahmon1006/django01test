@@ -13,6 +13,7 @@ def homePageviev(request):
     href = "http://127.0.0.1:8000/base/"
     href = "base"
 
+
 def homePageviev2(request):
     return HttpResponse("Salom"
                         "<p1> *_*  =) !!!!!! ^_^ </p1>")

@@ -47,12 +47,16 @@
             <div class="tm-bg-white tm-call-to-action-text">
               <h2 class="tm-call-to-action-title">Unsplash tomonidan rasmlar</h2>
               <p class="tm-call-to-action-description">
-                You may browse <a rel="nofollow" href="https://www.toocss.com">Siz ko'rib chiqishingiz mumkin Too CSS veb-sayti loyihalaringiz uchun CSS shablonlarini to'plash uchun.
+                  You may browse <a rel="nofollow" href="#">Siz ko'rib chiqishingiz mumkin Too CSS veb-sayti
+                  loyihalaringiz uchun CSS shablonlarini to'plash uchun.
                 Aliquam erat volutpat. Nulla eros est, Imperdiet vel feugiat non, ullamcorper mattis nulla.
+              </a>
               </p>
-              <form action="#" method="get" class="tm-call-to-action-form">                
-                <input name="email" type="email" class="tm-email-input" id="email" placeholder="Email" />
-                <button type="submit" class="btn btn-secondary">Yangilanishlarni olish</button>
+
+                <form action="" method="get" class="tm-call-to-action-form">
+                    {% csrf_token %}
+                    <input name="email" type="email" class="tm-email-input" id="email" placeholder="Email">
+                    <button type="submit" class="btn btn-secondary"> Yangilanishlarni olish</button>
               </form>
             </div>
           </div>
