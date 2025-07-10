@@ -72,6 +72,9 @@ def testimonials(request):
 def base(request):
     return render(request, 'base.html')
 
+def extra(request):
+    return render(request, 'extra.html')
+
 
 
 

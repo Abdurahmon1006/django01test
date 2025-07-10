@@ -12,6 +12,7 @@ urlpatterns = [
     path('', include('app01HelloWorld_homepage.urls')),
     path('', include('app01HelloWorld_homepage.urls')),
     path('', include('sodda_sahifalar_app.urls')),
+    path('', include('app01HelloWorld_homepage.urls')),
 
 
 
